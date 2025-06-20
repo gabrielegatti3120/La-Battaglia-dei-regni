@@ -230,11 +230,11 @@ def Battaglia(Player:list,Ia:list,budgetP:int, budgetI:int):
         for i in Player:
             if not i.get_vivo(): 
                 Player.remove(i)
-                print("RIMOZIONE")
+                #print("RIMOZIONE")
         for j in Ia:
             if not j.get_vivo(): 
                 Ia.remove(j)
-                print("Rimozione")
+                #print("Rimozione")
         turni += 1
         if len(Player) != 0 and len(Ia) != 0:
             budgetP += 300
